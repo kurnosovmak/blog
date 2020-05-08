@@ -1,0 +1,35 @@
+
+{% load static %}
+<nav>
+    <div class="nav-wrapper" style="background-color: #ffffff;" >
+        <a href="/" class="brand-logo" height="64px">
+            <img height="64px" src="{% static 'logo.png' %}">
+            <span style="color: black;text-decoration: none;font-size: 24px;">Блог</span>
+        </a>
+
+
+
+        <ul id="nav-mobile" class="right hide-on-med-and-down">
+            <li>
+                <a style="color: black;" href="sass.html">
+                  <img src="{% static 'email.png' %}" style="height: 24px;">
+                </a>
+            </li>
+
+
+              <li>
+                <a style="color: black;" href="sass.html">
+                  <img src="{% static 'user.png' %}" style="height: 56px;border-radius:32px;border: 2px solid black;">
+                </a>
+            </li>
+
+             <li>
+                <a style="color: black;" href="sass.html">
+                  <img src="{% static 'logout.png' %}" style="height: 23px;">
+                </a>
+            </li>
+
+
+        </ul>
+    </div>
+</nav>
